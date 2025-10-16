@@ -1,4 +1,4 @@
-def is_divisible(num1, num2):
+def is_divisible(num1: int, num2: int) -> bool:
     """
     Check if num1 is divisible by num2.
 
@@ -16,3 +16,4 @@ def is_divisible(num1, num2):
 print(is_divisible(10, 2))  # True
 print(is_divisible(10, 3))  # False
 print(is_divisible(10, 0))  # Raises ValueError
+
